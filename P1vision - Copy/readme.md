@@ -1,6 +1,6 @@
 This repository contains the webpage report version of my Project 1 submission for Computer Vision.
 
-⚠️ Note: The source code is not included here in compliance with submission rules.
+Note: The source code is not included here in compliance with submission rules.
 Only the report and example outputs (images + markdown) are made public.
 
 Overview
@@ -31,11 +31,12 @@ Webpage Report
 
 The full report with figures is hosted on GitHub Pages:
 
-👉 View Project Report
+View Project Report
 
 Included Files (in this repo)
 
 index.md – the markdown report for GitHub Pages.
 
 images/ – folder of input and output images used in the report.
+
 
