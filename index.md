@@ -5,7 +5,14 @@ title: Project 1 – Image Processing
 # Project 1: Projections, Histograms, Derivatives, Sharpening, Anisotropic Diffusion
 
 ## Perspective vs (Approx.) Orthographic
-Brief notes and two figures here…
+In the **perspective image**, parallel edges in the 3D scene **converge** in the 2D projection, forming a vanishing point (estimated near (918.2, 264.9)).  
+This demonstrates **foreshortening**: objects farther from the camera appear smaller and compressed in scale.  
+
+In the **orthographic-like image** (captured by stepping back and cropping), the same edges appear nearly parallel with minimal convergence.  
+This more closely approximates an **orthographic projection**, where parallel rays remain parallel.  the program automatically crops the image to a percent based on a perameter
+
+**Visual takeaway:** Perspective emphasizes depth but distorts shapes with distance, while the orthographic-style framing preserves proportions more consistently across the scene.
+
 
 ![](outputs\perspective_annotated.png)  
 ![](outputs\ortho_annotated.png)
@@ -40,3 +47,4 @@ CT example:
 ## Anisotropic Diffusion vs Gaussian
 ![](outputs\aniso\noisytestimage1_aniso_vs_gauss_K20.0_it15_lam0.2_sig1.5.png)  
 ![](outputs\aniso\noisytestimage2_aniso_vs_gauss_K20.0_it15_lam0.2_sig1.5.png)
+
