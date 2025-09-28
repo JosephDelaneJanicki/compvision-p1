@@ -1,9 +1,7 @@
-This repository contains the webpage report version of my Project 1 submission for Computer Vision.
+# Note: The source code is not included here in compliance with submission rules.
+# Only the report and example outputs (images + markdown) are made public.
 
-Note: The source code is not included here in compliance with submission rules.
-Only the report and example outputs (images + markdown) are made public.
-
-Overview
+#Overview
 
 The project explores core image processing techniques:
 
@@ -27,7 +25,7 @@ Anisotropic Diffusion vs Gaussian Filtering
 
 Noise reduction while preserving edges, compared against Gaussian smoothing.
 
-Webpage Report
+# Webpage Report
 
 The full report with figures is hosted on GitHub Pages:
 
@@ -38,5 +36,6 @@ Included Files (in this repo)
 index.md – the markdown report for GitHub Pages.
 
 images/ – folder of input and output images used in the report.
+
 
 
