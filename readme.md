@@ -1,29 +1,44 @@
-How to Run the Code
--------------------
-1. Install dependencies: numpy, matplotlib, opencv-python
-   pip install numpy matplotlib opencv-python
+# Note: The source code is not included here in compliance with submission rules. Only the report and example outputs (images + markdown) are made public.
+---------------------------
+# Overview
 
-2. Example usage:
+The project explores core image processing techniques:
 
-   # Part 1: Perspective vs Ortho
-   python src/main.py --task part1 --images images/desk_close.jpg images/desk_far.jpg --outdir outputs --write-note
+Perspective vs Orthographic Projection
 
-   # Part 2: Histogram Equalization
-   python src/main.py --task hist_eq --images images/testimage1.png --outdir outputs/histEQ
-   python src/main.py --task hist_eq --images images/testimage2.png --outdir outputs/histEQ
-   python src/main.py --task hist_eq --images images/testimage3.png --outdir outputs/histEQ
-   python src/main.py --task hist_eq --images images/solarisDark.png --outdir outputs/mine
+Comparison between true perspective and approximate orthographic images.
 
-   # Part 3: Histogram Matching
-   python src/main.py --task hist_match --images images/testimage1.png images/testimage2.png images/testimage3.png --target images/target.png --outdir outputs/match
+Histogram Equalization & Matching
 
-   # Part 4: Derivative of Gaussian
-   python src/main.py --task deriv --images images/testimage4.png images/testimage5.png images/testimage6.png --outdir outputs/dog
+Global histogram equalization and histogram matching with a target image.
 
-   # Part 5: Sharpening
-   python src/main.py --task sharpen --images images/moon.png images/ct.png --outdir outputs/sharp
+Derivatives & Derivative of Gaussian (DoG)
 
-   # Part 6: Anisotropic Diffusion
-   python src/main.py --task aniso --images images/noisytestimage1.png images/noisytestimage2.png --k 20 --iters 15 --lam 0.2 --sigma 1.5 --outdir outputs/aniso
+Edge detection using both naïve derivative filters and derivative-of-Gaussian filters.
 
-3. Outputs will appear in the specified --outdir.
+Image Sharpening (Unsharp Masking)
+
+Enhancement of details using high-frequency components, with examples at different blending weights (α).
+
+Anisotropic Diffusion vs Gaussian Filtering
+
+Noise reduction while preserving edges, compared against Gaussian smoothing.
+
+# Webpage Report
+
+The full report with figures is hosted on GitHub Pages:
+
+View Project Report
+
+Included Files (in this repo)
+
+index.md – the markdown report for GitHub Pages.
+
+images/ – folder of input and output images used in the report.
+
+
+
+
+
+
+
