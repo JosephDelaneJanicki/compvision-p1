@@ -1,7 +1,6 @@
-# Note: The source code is not included here in compliance with submission rules.
-# Only the report and example outputs (images + markdown) are made public.
+# Note: The source code is not included here in compliance with submission rules. Only the report and example outputs (images + markdown) are made public.
 
-#Overview
+# Overview
 
 The project explores core image processing techniques:
 
@@ -36,6 +35,7 @@ Included Files (in this repo)
 index.md – the markdown report for GitHub Pages.
 
 images/ – folder of input and output images used in the report.
+
 
 
 
